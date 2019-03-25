@@ -1,0 +1,12 @@
+.idea/*
+venv/*
+.DS_Store
+
+__pycache__/
+*.py[cod]
+
+config.py
+*.log*
+test.py
+
+*.tmp
