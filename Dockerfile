@@ -5,7 +5,7 @@ ENV TZ Europe/Belgrade
 
 COPY requirements.txt /app/requirements.txt
 
-RUN --update apk add --no-cache python3 \
+RUN apk --update add --no-cache python3 \
     python3-dev \
     build-base \
     linux-headers \
